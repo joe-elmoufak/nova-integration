@@ -1,9 +1,12 @@
 {
+  "scripts": {},
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
     "@testing-library/cypress": "^9.0.0",
+    "@types/node": "^18.11.18",
     "cypress": "^12.3.0",
-    "typescript": "^4.9.4",
-    "merge-partially": "^2.0.2"
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "merge-partially": "^2.0.2",
+    "typescript": "^4.9.4"
   }
 }

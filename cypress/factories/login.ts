@@ -7,6 +7,7 @@ export interface User {
     lastName: string;
     age: number;
     blah: string;
+    hhh: string;
 }
 
 export interface Address {
@@ -23,6 +24,7 @@ export interface Address {
         }
     }
 }
+
 export function makeFakeUser(overrides?: NestedPartial<User>): User {
     return mergePartially.deep(
         {
@@ -30,7 +32,8 @@ export function makeFakeUser(overrides?: NestedPartial<User>): User {
             age: faker.datatype.number({ max: 50 }),
             firstName: faker.name.firstName(),
             lastName: faker.name.lastName(),
-            blah: 'a random value'
+            blah: 'a random value',
+            hhh: 'asdasdasd'
         },
         overrides
     );

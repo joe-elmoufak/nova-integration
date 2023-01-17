@@ -1,0 +1,15 @@
+.public/
+combined.xml
+cypress/cucumber-json/
+node_modules/
+public/
+results.xml
+results/
+reports/
+videos/
+screenshots/
+.idea/vcs.xml
+.idea/nova-integration.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/workspace.xml
